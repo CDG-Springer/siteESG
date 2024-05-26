@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="scrollanimation.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <a href="/" class="logo"><img src="imagens/logo.png" alt=""></a>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#sobre-container" class="link">Sobre</a></li>
+            <li><a href="#duvidas" class="link">Dúvidas</a></li>
+            <li><a href="#scrollhere" class="link">Video explicativo</a></li>
+            <li><a href="#contatoContainer" class="link">Entre em contato</a></li>
+        </ul>
+    </nav>
+    <script src="mobile.js"></script>
+
+    <section id="frontpage-container">
+
+        <div class="caroussel-frontpage">
+
+            <div class="slider-frontpage">
+
+                <img src="imagens//slides/1.jpg"></img>
+                <img src="imagens//slides/2.jpg"></img>
+                <img src="imagens//slides/3.jpg">
+
+            </div>
+
+            <div class="controls-frontpage">
+                <span class="arrow left"><i class="material-icons">chevron_left</i></span>
+                <span class="arrow right"><i class="material-icons">navigate_next    </i></span>
+            </div>
+
+        </div>
+
+        <script src="caroussel-frontpage.js"></script>
+
+    </section>
+
+    <section id="sobre-container">
+
+        <div id="sobreBloco">
+
+            <!-- Texto dentro do circulo  -->
+            <div id="circle-container" class="esquerda">
+                <svg id="circulo" fill="#EAEEFF" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="50" />
+                </svg>
+                
+                <span class="textoCirculo"><span style="color: white; font-weight: bold; text-shadow: 0px 1px 6px rgba(0,0,0,0.71);">OQ</span>UE É ASG?</span>
+            </div>
+
+            <div class="sobreConteudo hidden">
+
+                <p class="textoSobre">
+
+                    ASG é a sigla para os termos <span class="inicial">A</span>mbiental, <span class="inicial">S</span>ocial e <span class="inicial">G</span>overnança. Consiste na implementação de processos corporativos alinhados a esses três critérios. O objetivo principal é que as atividades executadas pela empresa não afetem, ou afetem o mínimo possível, a natureza e as pessoas.
+                </p>
+
+                <img src="imagens/sobre1.jpg" alt="" class="imgSobre">
+
+            </div>
+
+            <div class="sobreConteudo hidden">
+
+                <img src="imagens/sobre2.jpg" style="transform: scaleX(-1); rotate: 10deg;" alt="" class="imgSobre inverteImagem">
+
+                <p class="textoSobre inverteTexto">
+                    Além disso, a adoção dos princípios ASG pode trazer uma série de benefícios para as empresas, como a atração de investidores que priorizam a sustentabilidade e a responsabilidade social em suas decisões de investimento. Empresas que seguem esses critérios tendem a ter uma melhor reputação no mercado, o que pode resultar em um aumento na fidelidade dos clientes e em uma vantagem competitiva. Implementar práticas ASG também pode levar à inovação, à medida que as empresas buscam soluções mais eficientes e sustentáveis, e à redução de riscos operacionais e legais, já que o cumprimento de normas ambientais e sociais rigorosas diminui a probabilidade de enfrentarem sanções e litígios.
+                </p>
+
+            </div>
+
+            
+        </section>
+    
+        <div id="svgContainer" style="background-image: url('imagens/svg1.svg'); background-color: transparent;">
+            <img src="imagens/svg1.svg" alt="">
+        </div>
+        
+        <div id="duvidas">
+        
+            <details id="scrollhere">
+                <summary>A: Ambiental</summary>
+                <p>
+                    Consiste na inclusão de medidas e boas práticas voltadas para a proteção do meio ambiente, tais como:
+
+                    uso consciente de recursos naturais;
+
+                    redução do nível de emissão de gases poluentes na atmosfera;
+
+                    preservação da biodiversidade;
+
+                    descarte correto de resíduos;
+
+                    não causar desmatamento ilegal para execução das atividades;
+
+                    não poluir rios, mares e solo.
+                </p>
+            </details>
+
+            <details>
+                <summary>S: Social</summary>
+                <p>
+                    Pode ser definido como um conjunto de políticas e posturas direcionadas para a proteção das pessoas e promoção de bem-estar, com atividades que incluem, por exemplo:
+
+                    zelar pela sociedade que vive em torno da empresa e contribuir para seu crescimento econômico;
+
+                    garantir direitos trabalhistas dos funcionários contratados e prezar pelos terceirizados;
+
+                    respeitar e garantir o atendimento dos direitos humanos de todos que se relacionam com a marca;
+
+                    promover a diversidade de fornecedores;
+
+                    garantir a segurança dos dados pessoais captados, tratados e armazenados.
+
+                </p>
+            </details>
+        
+            <details>
+                <summary>G: Governança</summary>
+                <p>
+                    Contempla a implementação de medidas que garantem a transparência de todas as atividades realizadas pela companhia, como:
+
+                    divulgação de resultados de relatórios de sustentabilidade;
+
+                    garantia de responsabilidade fiscal;
+
+                    não relacionar a marca ou participar de práticas ilícitas  e crimes como lavagem de dinheiro e corrupção;
+
+                    manter a companhia em compliance em todas as frentes de atuação.
+                </p>
+            </details>
+
+        </div>
+
+        <section id="certificadosContainer">
+                    
+            <div id="certificadosBloco">
+
+                <dialog id="dialogReciclagemVideo">
+
+                    <div class="dialogBloco">
+
+                        <iframe style="width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/MtAoWQxZa9s?si=9nBixP2awSmMSthS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <span onclick="dialogReciclagemVideo.close()" class="dialogClose">Fechar</span>
+
+                    </div>
+                </dialog>
+
+                <div class="certificado">
+
+                    <img src="icons/lixeirasIcon.png" alt="" class="certificadoImg">
+                    <span class="dadosCertificado">    
+                        <p class="nomeCertificado">Video explicativo</p>
+                        <button class="botaoCertificado" onclick="dialogReciclagemVideo.showModal()">Ver video</button>
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div id="svgContainer" style="background-image: url('imagens/svg1.svg'); rotate: 180deg; background-color: transparent;">
+            <img src="imagens/svg1.svg" alt="">
+        </div>
+
+        <section id="colaboracoesContainer">
+
+            <div id="colaboracoesBloco">
+                <p class="tituloColaboracoes">Faça sua parte!</p>
+
+                <div id="colaboracoesFlex">
+
+                    <span class="imgCertificado">
+
+                        <dialog id="dialogReciclagePlastico">
+                            <div class="dialogBloco">
+                                <p style="color: black; font-weight: lighter; font-size: 1rem;">
+                                    Reciclar gesso é fundamental para a sustentabilidade ambiental e a economia de recursos naturais. O gesso descartado em aterros pode liberar sulfatos que contaminam o solo e a água, além de ocupar espaço e contribuir para o aumento do volume de resíduos sólidos. A reciclagem permite a reutilização do gesso em novos produtos, reduzindo a necessidade de extração de matéria-prima virgem e a pegada ecológica da construção civil. Além disso, a reciclagem de gesso promove a economia circular, onde os materiais são continuamente reaproveitados, minimizando o impacto ambiental e fomentando práticas mais sustentáveis na indústria.
+                                </p>
+                                <br>
+                                <center>
+                                <p style="font-size: 0.4rem;"><a class="linkEcoPonto" href="https://www.brmultiplus.com.br/#:~:text=Sobre%20a%20Multiplus&text=Iniciativa%20pioneira%20em%20S%C3%A3o%20Paulo,para%20os%20res%C3%ADduos%20de%20gesso">Clique aqui para entrar em contato com uma recicladora de gesso</a></p>
+                                </center>
+                                <span onclick="dialogReciclagePlastico.close()" class="dialogClose">Fechar</span>
+                            </div>
+                        </dialog>
+                        
+
+                        <img class="colaboracoesIcon" src="imagens/cacamba.png" alt="">
+                        <p class="botaoDisk" onclick="dialogReciclagePlastico.showModal()">Resíduos sujos</p>
+                    </span>
+
+                    <span class="imgCertificado">
+
+                        <dialog id="dialogReciclagePapeis">
+                            <div class="dialogBloco">
+                                <p style="color: black; font-weight: lighter; font-size: 1rem;">
+                                    Segue a lista de ecopontos regionais:
+                                </p>
+                                <details class="summaryDialog">
+                                    <summary>Santos</summary>
+                                    <p>
+                                        <a href="https://maps.app.goo.gl/ACREvu8PEtSSh5x5A" class="linkEcoPonto2">Marim</a><br>
+                                    </p>
+
+                                </details>
+
+                                <details class="summaryDialog">
+                                    <summary>São Vicente</summary>
+                                    <p>
+                                        <a href="https://www.google.com/search?client=ms-android-samsung-ga-rev1&sca_esv=edb26598d7aebd42&cs=0&output=search&q=Ecoponto%20Codesavi&ludocid=17374409205477224470&ibp=gwp%3B0%2C7&lsig=AB86z5U_snuDiPs2N7rmkn1rncl7&kgs=2b79fcc872bbc4e1&shndl=-1&shem=lrnolc%2Clsp%2Cssic&source=sh%2Fx%2Floc%2Fact%2Fm1%2F2" class="linkEcoPonto2">Ecoponto Codesavi</a><br>
+                                        <a href="https://g.co/kgs/TnUeZs3" class="linkEcoPonto2">Eco Ponto</a><br>
+                                        <a href="https://www.google.com/search?client=ms-android-samsung-ga-rev1&sca_esv=edb26598d7aebd42&cs=0&sxsrf=ADLYWIJSndv9p9rd28jN4HSXfBAwZRY28w:1716262521915&q=Ecoponto+CODESAVI&ludocid=1803764652180585897&ibp=gwp;0,7&lsig=AB86z5WOdSCbVG7a1uHv6a6bXr-V&kgs=4a5da67d8a2a133d&shndl=-1&shem=lrnolc,lsp,ssic&source=sh/x/loc/tile/m1/2" class="linkEcoPonto2">Ecoponto CODESAVI</a><br>
+                                    </p>                                   
+
+                                </details>
+
+                                <details class="summaryDialog">
+                                    <summary>Praia Grande</summary>
+                                    <p>
+                                        <a href="https://g.co/kgs/FGKBCR9" class="linkEcoPonto2">Ecoponto Ocian</a><br>
+                                        <a href="https://g.co/kgs/M2B48vM" class="linkEcoPonto2">Ecoponto Vila Sônia</a><br>
+                                        <a href="https://g.co/kgs/kYvG7J9" class="linkEcoPonto2"></a><br>
+                                        <a href="https://g.co/kgs/CqdumNt" class="linkEcoPonto2">Ecoponto Mirim</a><br>
+                                        <a href="https://g.co/kgs/1JcWHs1" class="linkEcoPonto2">Ecoponto Anhanguera</a><br>
+                                        <a href="https://g.co/kgs/PCvMXLG" class="linkEcoPonto2">Ecoponto Boqueirão</a><br>
+                                        <a href="https://www.google.com/search?client=ms-android-samsung-ga-rev1&sca_esv=edb26598d7aebd42&cs=0&output=search&q=Ecoponto%20Avia%C3%A7%C3%A3o&ludocid=11317666672080246033&ibp=gwp%3B0%2C7&lsig=AB86z5UtnDg6MEIttn2llmkuK8bc&kgs=96e223e860106b9a&shndl=-1&shem=lrnolc%2Clsp%2Cssic&source=sh%2Fx%2Floc%2Fact%2Fm1%2F2" class="linkEcoPonto2">Ecoponto Aviação</a><br>
+                                        <a href="https://g.co/kgs/6c7Eog9" class="linkEcoPonto2">Ecoponto Maracanã</a><br>
+                                        <a href="https://g.co/kgs/hiQ5b6d" class="linkEcoPonto2">Ecoponto Caiçara</a><br>
+                                        <a href="https://g.co/kgs/RqT3Tvx" class="linkEcoPonto2"></a><br>
+                                        <a href="https://g.co/kgs/VjedwYo" class="linkEcoPonto2">Ecoponto Solemar</a><br>
+                                        <a href="https://g.co/kgs/yAhPNdS" class="linkEcoPonto2">Ecoponto Sítio do Campo</a><br>
+                                        <a href="https://g.co/kgs/FzUD2Eg" class="linkEcoPonto2">Ecoponto Canto do Forte</a><br>
+                                        <a href="https://g.co/kgs/Ps3nzoB" class="linkEcoPonto2">Ecoponto Real</a><br>
+                                        <a href="https://g.co/kgs/icQQxMV" class="linkEcoPonto2"></a><br>
+                                        <a href="https://g.co/kgs/Z6vt9DP" class="linkEcoPonto2">Ecoponto Ribeirópolis</a><br>
+                                    </p>
+                                </details>
+                                
+                                <span onclick="dialogReciclagePapeis.close()" class="dialogClose">Fechar</span>
+                            </div>
+                        </dialog>
+
+                        <img class="colaboracoesIcon" src="imagens/ecoponto.png" alt="">
+                        <p class="botaoDisk" onclick="dialogReciclagePapeis.showModal()">Eco Pontos<br>Regionais</p>
+                    </span>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contatoContainer">
+
+            <div id="contatoBloco">
+                <h1>Para mais informações, clique no icone e acesse nosso instagram:</h1>
+
+                <div id="meiosDeContatoContainer">
+                    <span class="contatoIcon">
+                        <a href="https://www.instagram.com/esg.9474?utm_source=qr">
+                        <img src="icons/iconeRecicle.png" alt="">
+                        <center><p class="nomeContato">ESG<br>Brasil</p>
+                        </a></center>
+                    </span>
+                </div>
+            </div>
+
+        </section>
+
+
+        <footer>
+            
+            <!-- <p>Site desenvolvido por <a href="https://github.com/seu-usuario-github">Eric Springer</a></p> -->
+
+            <div class="botoes">
+                <p>Recicle hoje para um amanhã mais verde!</p>
+            </div>
+
+        </footer>
+
+</body>
+</html>
